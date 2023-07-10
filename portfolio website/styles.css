@@ -4,6 +4,8 @@
 }
 nav { 
   display:flex;
+
+  justify-content: space-between;
 }
 span{
   color:#FD6E0A;
@@ -15,7 +17,7 @@ font-size: 45px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
-margin-right: 30px;
+margin-right: 100px;
 margin-top: 10px;
 margin-left: 80px ;
 
@@ -60,7 +62,7 @@ flex-shrink: 0;
 border: 2px solid  #FD6E0A;
 
 }
-.pcolor{
+.pcolor {
   color: #757575;
 
 font-family: Open Sans;
@@ -69,4 +71,38 @@ font-style: normal;
 font-weight: 400;
 line-height: 30px;
 
+
 }
+.content{
+  max-width: 800px;
+}
+.head-descrip{
+  display: flex;
+  justify-content: space-between;
+
+}
+image{
+  width: auto;
+}
+header{
+  background: #FFF8F3;
+  align-items: center;
+  background-image: url(../portfolio-resources/images/header_bg.png);
+  background-position:bottom right ;
+  background-repeat: no-repeat;
+ 
+ 
+  
+}
+nav,.head-descrip{
+  margin-left: 300px;
+margin-top: 50px;  
+}
+
+
+.dp{
+  width: 500px;
+}
+
+
+
