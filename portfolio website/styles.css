@@ -49,3 +49,24 @@ flex-shrink: 0;
 border:none ;
 
 }
+.contact{
+  color: #FD6E0A;  
+font-family: Open Sans;
+font-size: 20px;
+border-radius: 5px;
+background: #FFF;
+padding: 10px 35px;
+flex-shrink: 0;
+border: 2px solid  #FD6E0A;
+
+}
+.pcolor{
+  color: #757575;
+
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+
+}
